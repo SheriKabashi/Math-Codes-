@@ -1,0 +1,11 @@
+#Computing Sum of Diagonal Terms of a Matrix
+
+def sum_dia(M):
+    count=0
+    for i in range(len(M)):
+        count+=M[i][i]
+    return count
+        
+M=[[1,2,3],[4,5,6],[7,8,9]] #Edit M based on the matrix you are using        
+        
+print(sum_dia(M))
